@@ -36,7 +36,6 @@
 .nav__links {
   display: flex;
   column-gap: 20px;
-  /* align-items: flex-end; */
   list-style-type: none;
   margin: 0;
 }
@@ -57,7 +56,6 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  /* margin: 80px 0 80px 28px; */
   margin: 80px 0 28px 80px;
   max-width: 729px;
 }
@@ -79,7 +77,6 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  /* margin: 28px 0 80px 0; */
   margin: 0 0 0 80px;
 }
 
@@ -127,7 +124,6 @@
   line-height: 52px;
   color: #ffffff;
   max-width: 580px;
-  /* margin: 100px 0 80px 24px; */
   margin: 100px 0 24px 80px;
 }
 
@@ -172,4 +168,92 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 24px;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  margin-bottom: 120px;
+  display: flex;
+  border: none;
+  padding: 0;
+  flex-direction: column;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  height: 60px;
+  max-width: 385px;
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid #838383;
+}
+
+.form__button {
+  border-radius: 4px;
+  height: 60px;
+  margin-bottom: 32px;
+  background-color: #2f80ed;
+  transition: background-color 1s ease-in-out;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__label-checkbox {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form__checkbox {
+  min-height: 20px;
+  min-width: 20px;
+  margin-right: 12px;
+  border-radius: 2px;
 }
