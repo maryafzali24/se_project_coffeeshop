@@ -1,0 +1,53 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-family: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 780px;
+  /* margin: 100px 0 24px 0; */
+  padding-top: 100px;
+  padding-bottom: 24px;
+  margin: auto;
+  text-align: center;
+  color: #000;
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  /* margin-bottom: 100px; */
+  padding-bottom: 100px;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* margin-bottom: 100px; */
+  padding-bottom: 100px;
+  justify-content: space-between;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+
