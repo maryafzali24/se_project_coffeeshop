@@ -8,15 +8,16 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  padding-bottom: 32px;
-  margin: 0;
+  /* padding-bottom: 32px; */
+  /* margin: 0; */
+  margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .card__list {
   padding-left: 0;
   margin: 0;
 }
-
 
 .card__list-item {
   font-family: "Noto Serif";
@@ -25,17 +26,21 @@
   font-size: 16px;
   line-height: 20px;
   display: flex;
-  justify-content: space-between;
+  /* padding-bottom: 16px; */
+  margin-bottom: 16px;
   align-items: flex-end;
-  padding-bottom: 16px;
 }
 
 .card__list-item:last-child {
   margin-bottom: 0;
 }
 
-
 .card__list-divider {
-  flex-grow: 3;
-  border-bottom: #000000 1px solid;
+  display: block;
+  min-width: 50px;
+  height: 1px;
+  flex-grow: 1;
+  background-color: #000;
+  /* border-bottom: #000000 1px solid; */
+  border-bottom: #000;
 }

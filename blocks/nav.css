@@ -1,25 +1,29 @@
 .nav {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start;
   justify-content: space-between;
-  margin: 30px 80px 0px 30px;
+  margin: 30px 80px 0px 30px; */
+  align-items: flex-end;
+  flex-direction: row-reverse;
 }
 
 .nav__links {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
   display: flex;
   column-gap: 20px;
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  color: #000;
 }
 
 .nav__link {
-  font-family: "Inter";
-  font-style: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
+  /* color: #000; */
   text-decoration: none;
-  font-weight: bold;
+  transition-duration: 1s;
 }
 
 .nav__link:hover {
