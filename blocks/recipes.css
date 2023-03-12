@@ -4,9 +4,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding: 215px;
 }
 
 .recipes__title {
@@ -40,15 +40,15 @@
 }
 
 .recipes__iframe {
-  display: flex;
-  justify-content: center;
+  display: block;
+  border: none;
   height: 273px;
   width: 480px;
 }
 
-.recipes__video {
+/* .recipes__video {
   padding-bottom: 215px;
-}
+} */
 
 .recipes__video-caption {
   color: #ffffff;

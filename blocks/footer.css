@@ -1,7 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
-  padding: 60px 100px 80px;
+  padding: 60px 100px 0 80px;
 }
 
 .footer__content {
