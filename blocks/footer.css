@@ -4,6 +4,7 @@
   padding-top: 60px;
   padding-right: 100px;
   padding-left: 80px;
+  padding-bottom: 108px;
 }
 
 .footer__content {
@@ -17,7 +18,7 @@
 }
 
 .footer__social-heading {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -27,7 +28,7 @@
 
 .footer__list {
   list-style: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -42,7 +43,7 @@
 }
 
 .footer__list-item {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -55,7 +56,7 @@
 }
 
 .footer__social-link {
-  color: #c1c1c1;
+  color: #fff;
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
   text-decoration: none;
