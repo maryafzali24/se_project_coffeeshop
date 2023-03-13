@@ -20,14 +20,10 @@
   overflow: hidden;
 }
 
-.about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-in-out 0s infinite;
-}
-
 .about__title {
   max-width: 251px;
   margin: 100px 0 0 80px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -41,7 +37,7 @@
   max-width: 660px;
   margin: 119px 80px 173px 0;
   gap: 20px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Time New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -60,4 +56,8 @@
   top: -152px;
   position: absolute;
   z-index: 0;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
 }
